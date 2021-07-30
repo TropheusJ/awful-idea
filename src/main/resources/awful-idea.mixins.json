@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "net.tropheusJay.awfulIdea.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "LivingEntityMixin",
+    "PlayerEntityMixin",
+    "PlayerInventoryMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
